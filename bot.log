@@ -1,0 +1,494 @@
+2026-03-18 01:02:22 | INFO    | firebase_db | ✅ Firebase сәтті қосылды
+2026-03-18 01:02:22 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-18 01:02:22 | INFO    | __main__ | ==================================================
+2026-03-18 01:02:22 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-18 01:02:22 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-18 01:02:22 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-18 01:02:22 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-18 01:02:22 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-18 01:02:22 | INFO    | __main__ | ==================================================
+2026-03-18 01:02:22 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-18 01:02:24 | INFO    | scheduler.daily_scheduler | 🚀 Scheduler іске қосылды
+2026-03-18 01:02:32 | INFO    | scheduler.daily_scheduler | 🎲 Бүгінгі сұрақ уақыты: 9:00
+2026-03-18 01:02:32 | WARNING | __main__ | Админге хабар жіберу қатесі (5503581456): Telegram server says - Forbidden: bot can't initiate conversation with a user
+2026-03-18 01:02:32 | INFO    | aiogram.dispatcher | Start polling
+2026-03-18 01:02:33 | INFO    | aiogram.dispatcher | Run polling for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-18 01:02:33 | INFO    | aiogram.event | Update id=41872197 is not handled. Duration 0 ms by bot id=8669503162
+2026-03-18 01:02:33 | INFO    | aiogram.event | Update id=41872198 is not handled. Duration 32 ms by bot id=8669503162
+2026-03-18 01:02:33 | INFO    | aiogram.event | Update id=41872199 is not handled. Duration 47 ms by bot id=8669503162
+2026-03-18 01:02:43 | INFO    | aiogram.event | Update id=41872200 is handled. Duration 14 ms by bot id=8669503162
+2026-03-18 01:02:52 | INFO    | aiogram.event | Update id=41872201 is handled. Duration 16 ms by bot id=8669503162
+2026-03-18 01:03:08 | INFO    | aiogram.event | Update id=41872202 is handled. Duration 1407 ms by bot id=8669503162
+2026-03-18 01:03:20 | INFO    | aiogram.event | Update id=41872203 is handled. Duration 297 ms by bot id=8669503162
+2026-03-18 01:03:46 | INFO    | aiogram.event | Update id=41872204 is handled. Duration 2860 ms by bot id=8669503162
+2026-03-18 01:04:01 | INFO    | aiogram.event | Update id=41872205 is handled. Duration 2858 ms by bot id=8669503162
+2026-03-18 01:04:09 | INFO    | aiogram.event | Update id=41872206 is handled. Duration 202 ms by bot id=8669503162
+2026-03-18 01:04:12 | INFO    | aiogram.event | Update id=41872207 is handled. Duration 219 ms by bot id=8669503162
+2026-03-18 01:04:17 | INFO    | aiogram.event | Update id=41872208 is handled. Duration 202 ms by bot id=8669503162
+2026-03-18 01:04:27 | INFO    | aiogram.event | Update id=41872209 is handled. Duration 202 ms by bot id=8669503162
+2026-03-18 01:04:47 | INFO    | aiogram.event | Update id=41872210 is handled. Duration 733 ms by bot id=8669503162
+2026-03-18 01:04:51 | INFO    | aiogram.event | Update id=41872211 is handled. Duration 202 ms by bot id=8669503162
+2026-03-18 01:04:52 | INFO    | aiogram.event | Update id=41872212 is handled. Duration 217 ms by bot id=8669503162
+2026-03-18 01:05:02 | INFO    | aiogram.event | Update id=41872213 is handled. Duration 202 ms by bot id=8669503162
+2026-03-18 01:05:41 | INFO    | aiogram.event | Update id=41872214 is handled. Duration 0 ms by bot id=8669503162
+2026-03-18 01:06:16 | INFO    | aiogram.event | Update id=41872215 is handled. Duration 1640 ms by bot id=8669503162
+2026-03-18 01:06:19 | INFO    | aiogram.event | Update id=41872216 is handled. Duration 203 ms by bot id=8669503162
+2026-03-18 01:06:22 | INFO    | aiogram.event | Update id=41872217 is handled. Duration 219 ms by bot id=8669503162
+2026-03-18 01:06:28 | INFO    | aiogram.event | Update id=41872218 is handled. Duration 375 ms by bot id=8669503162
+2026-03-18 01:06:30 | INFO    | aiogram.event | Update id=41872219 is handled. Duration 515 ms by bot id=8669503162
+2026-03-18 01:06:31 | INFO    | aiogram.event | Update id=41872220 is handled. Duration 202 ms by bot id=8669503162
+2026-03-18 01:28:42 | INFO    | firebase_db | ✅ Firebase сәтті қосылды
+2026-03-18 01:28:42 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-18 01:28:42 | INFO    | __main__ | ==================================================
+2026-03-18 01:28:42 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-18 01:28:42 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-18 01:28:42 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-18 01:28:42 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-18 01:28:42 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-18 01:28:42 | INFO    | __main__ | ==================================================
+2026-03-18 01:28:42 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-18 01:28:44 | INFO    | scheduler.daily_scheduler | 🚀 Scheduler іске қосылды
+2026-03-18 01:28:45 | INFO    | aiogram.dispatcher | Start polling
+2026-03-18 01:28:45 | INFO    | aiogram.dispatcher | Run polling for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-18 01:30:37 | INFO    | firebase_db | ✅ Firebase сәтті қосылды
+2026-03-18 01:30:37 | CRITICAL | __main__ | 💥 Критикалық қате: module 'handlers.quiz' has no attribute 'router'
+Traceback (most recent call last):
+  File "C:\Users\bakyt\Desktop\it-quiz-bot\main.py", line 102, in <module>
+    asyncio.run(main())
+  File "C:\Program Files\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Program Files\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "C:\Users\bakyt\Desktop\it-quiz-bot\main.py", line 86, in main
+    dp.include_router(quiz.router)      # Сұрақ жауаптары
+AttributeError: module 'handlers.quiz' has no attribute 'router'
+2026-03-18 01:32:41 | INFO    | firebase_db | ✅ Firebase сәтті қосылды
+2026-03-18 01:32:41 | CRITICAL | __main__ | 💥 Критикалық қате: module 'handlers.quiz' has no attribute 'router'
+Traceback (most recent call last):
+  File "C:\Users\bakyt\Desktop\it-quiz-bot\main.py", line 102, in <module>
+    asyncio.run(main())
+  File "C:\Program Files\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Program Files\Python310\lib\asyncio\base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "C:\Users\bakyt\Desktop\it-quiz-bot\main.py", line 86, in main
+    dp.include_router(quiz.router)      # Сұрақ жауаптары
+AttributeError: module 'handlers.quiz' has no attribute 'router'
+2026-03-18 01:34:16 | INFO    | firebase_db | ✅ Firebase сәтті қосылды
+2026-03-18 01:34:16 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-18 01:34:16 | INFO    | __main__ | ==================================================
+2026-03-18 01:34:16 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-18 01:34:16 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-18 01:34:16 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-18 01:34:16 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-18 01:34:16 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-18 01:34:16 | INFO    | __main__ | ==================================================
+2026-03-18 01:34:16 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-18 01:34:18 | INFO    | scheduler.daily_scheduler | 🚀 Scheduler іске қосылды
+2026-03-18 01:34:19 | INFO    | aiogram.dispatcher | Start polling
+2026-03-18 01:34:20 | INFO    | aiogram.dispatcher | Run polling for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-18 01:34:41 | INFO    | aiogram.event | Update id=41872221 is handled. Duration 14 ms by bot id=8669503162
+2026-03-18 01:35:08 | INFO    | aiogram.event | Update id=41872222 is handled. Duration 15 ms by bot id=8669503162
+2026-03-18 01:35:20 | INFO    | aiogram.event | Update id=41872223 is handled. Duration 1172 ms by bot id=8669503162
+2026-03-18 01:35:31 | INFO    | handlers.commands | 📋 /help командасы: chat=5503581456
+2026-03-18 01:35:31 | INFO    | aiogram.event | Update id=41872224 is handled. Duration 219 ms by bot id=8669503162
+2026-03-18 01:35:33 | INFO    | aiogram.event | Update id=41872225 is handled. Duration 188 ms by bot id=8669503162
+2026-03-18 01:35:57 | INFO    | aiogram.event | Update id=41872226 is handled. Duration 609 ms by bot id=8669503162
+2026-03-18 01:37:44 | INFO    | aiogram.event | Update id=41872227 is handled. Duration 1530 ms by bot id=8669503162
+2026-03-18 01:37:46 | INFO    | handlers.commands | 🏆 /top командасы: chat=7703184451
+2026-03-18 01:37:47 | INFO    | aiogram.event | Update id=41872228 is handled. Duration 1328 ms by bot id=8669503162
+2026-03-18 01:37:52 | INFO    | aiogram.event | Update id=41872229 is handled. Duration 3077 ms by bot id=8669503162
+2026-03-18 01:37:57 | INFO    | aiogram.event | Update id=41872230 is handled. Duration 203 ms by bot id=8669503162
+2026-03-18 01:38:00 | INFO    | aiogram.event | Update id=41872231 is handled. Duration 297 ms by bot id=8669503162
+2026-03-18 01:38:09 | INFO    | aiogram.event | Update id=41872232 is handled. Duration 296 ms by bot id=8669503162
+2026-03-18 01:38:16 | INFO    | aiogram.event | Update id=41872233 is handled. Duration 16 ms by bot id=8669503162
+2026-03-18 01:38:22 | INFO    | handlers.commands | 📋 /help командасы: chat=-1001796617928
+2026-03-18 01:38:22 | INFO    | aiogram.event | Update id=41872234 is handled. Duration 203 ms by bot id=8669503162
+2026-03-18 01:38:30 | INFO    | handlers.commands | 🏆 /top командасы: chat=-1001796617928
+2026-03-18 01:38:31 | INFO    | aiogram.event | Update id=41872235 is handled. Duration 1421 ms by bot id=8669503162
+2026-03-18 01:38:36 | INFO    | aiogram.event | Update id=41872236 is handled. Duration 702 ms by bot id=8669503162
+2026-03-18 01:38:41 | INFO    | aiogram.event | Update id=41872237 is handled. Duration 171 ms by bot id=8669503162
+2026-03-18 01:38:55 | INFO    | aiogram.event | Update id=41872238 is handled. Duration 202 ms by bot id=8669503162
+2026-03-18 01:39:09 | INFO    | aiogram.event | Update id=41872239 is handled. Duration 203 ms by bot id=8669503162
+2026-03-18 01:39:16 | INFO    | handlers.middleware | 🗑 Админ командасы өшірілді: /addquestion
+2026-03-18 01:39:16 | INFO    | aiogram.event | Update id=41872240 is handled. Duration 203 ms by bot id=8669503162
+2026-03-18 01:39:24 | INFO    | handlers.middleware | 🗑 Админ командасы өшірілді: /questioncount
+2026-03-18 01:39:24 | INFO    | aiogram.event | Update id=41872241 is handled. Duration 202 ms by bot id=8669503162
+2026-03-18 01:39:28 | INFO    | handlers.middleware | 🗑 Админ командасы өшірілді: /questioncount
+2026-03-18 01:39:28 | INFO    | aiogram.event | Update id=41872242 is handled. Duration 202 ms by bot id=8669503162
+2026-03-18 01:39:31 | INFO    | handlers.middleware | 🗑 Админ командасы өшірілді: /skip
+2026-03-18 01:39:31 | INFO    | aiogram.event | Update id=41872243 is handled. Duration 250 ms by bot id=8669503162
+2026-03-18 01:39:34 | INFO    | handlers.middleware | 🗑 Админ командасы өшірілді: /addquestion
+2026-03-18 01:39:34 | INFO    | aiogram.event | Update id=41872244 is handled. Duration 328 ms by bot id=8669503162
+2026-03-18 01:39:39 | INFO    | aiogram.event | Update id=41872245 is handled. Duration 0 ms by bot id=8669503162
+2026-03-18 01:39:43 | INFO    | handlers.commands | 🏆 /top командасы: chat=-1001796617928
+2026-03-18 01:39:45 | INFO    | aiogram.event | Update id=41872246 is handled. Duration 1327 ms by bot id=8669503162
+2026-03-25 15:11:42 | INFO    | firebase_db | ✅ Firebase сәтті қосылды
+2026-03-25 15:11:42 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-25 15:11:42 | INFO    | __main__ | ==================================================
+2026-03-25 15:11:42 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-25 15:11:42 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-25 15:11:42 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-25 15:11:42 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-25 15:11:42 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-25 15:11:42 | INFO    | __main__ | ==================================================
+2026-03-25 15:11:42 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-25 15:11:45 | INFO    | scheduler.daily_scheduler | 🚀 Scheduler іске қосылды
+2026-03-25 15:11:51 | INFO    | scheduler.daily_scheduler | 🎲 Бүгінгі сұрақ уақыты: 21:00
+2026-03-25 15:11:52 | INFO    | aiogram.dispatcher | Start polling
+2026-03-25 15:11:52 | INFO    | aiogram.dispatcher | Run polling for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 15:12:14 | INFO    | aiogram.event | Update id=41872248 is handled. Duration 1875 ms by bot id=8669503162
+2026-03-25 15:12:22 | INFO    | aiogram.event | Update id=41872249 is handled. Duration 218 ms by bot id=8669503162
+2026-03-25 15:24:28 | INFO    | firebase_db | ✅ Firebase сәтті қосылды
+2026-03-25 15:24:28 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-25 15:24:28 | INFO    | __main__ | ==================================================
+2026-03-25 15:24:28 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-25 15:24:28 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-25 15:24:28 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-25 15:24:28 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-25 15:24:28 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-25 15:24:28 | INFO    | __main__ | ==================================================
+2026-03-25 15:24:28 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-25 15:24:28 | INFO    | __main__ | 🛑 Бот тоқтатылды
+2026-03-25 15:24:28 | INFO    | __main__ | 👋 Бот тоқтатылды (Ctrl+C)
+2026-03-25 15:26:37 | INFO    | firebase_db | Firebase satti qosyldy
+2026-03-25 15:26:37 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-25 15:26:37 | INFO    | __main__ | ==================================================
+2026-03-25 15:26:37 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-25 15:26:37 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-25 15:26:37 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-25 15:26:37 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-25 15:26:37 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-25 15:26:37 | INFO    | __main__ | ==================================================
+2026-03-25 15:26:37 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-25 15:26:38 | INFO    | scheduler.daily_scheduler | 🚀 Scheduler іске қосылды
+2026-03-25 15:26:40 | INFO    | aiogram.dispatcher | Start polling
+2026-03-25 15:26:40 | INFO    | aiogram.dispatcher | Run polling for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 15:26:58 | INFO    | aiogram.event | Update id=41872250 is handled. Duration 1515 ms by bot id=8669503162
+2026-03-25 15:27:01 | INFO    | handlers.commands | 📋 /help командасы: chat=5503581456
+2026-03-25 15:27:02 | INFO    | aiogram.event | Update id=41872251 is handled. Duration 311 ms by bot id=8669503162
+2026-03-25 15:27:13 | INFO    | aiogram.event | Update id=41872252 is handled. Duration 577 ms by bot id=8669503162
+2026-03-25 15:27:22 | INFO    | aiogram.event | Update id=41872253 is handled. Duration 1952 ms by bot id=8669503162
+2026-03-25 15:27:40 | INFO    | aiogram.event | Update id=41872254 is handled. Duration 5125 ms by bot id=8669503162
+2026-03-25 15:27:46 | INFO    | handlers.commands | 🏆 /top командасы: chat=5503581456
+2026-03-25 15:27:48 | INFO    | aiogram.event | Update id=41872255 is handled. Duration 1484 ms by bot id=8669503162
+2026-03-25 15:27:54 | INFO    | aiogram.event | Update id=41872256 is handled. Duration 765 ms by bot id=8669503162
+2026-03-25 15:27:59 | INFO    | aiogram.event | Update id=41872257 is handled. Duration 343 ms by bot id=8669503162
+2026-03-25 15:28:10 | INFO    | aiogram.event | Update id=41872258 is handled. Duration 2264 ms by bot id=8669503162
+2026-03-25 15:28:16 | INFO    | aiogram.event | Update id=41872259 is handled. Duration 2984 ms by bot id=8669503162
+2026-03-25 15:28:23 | INFO    | aiogram.event | Update id=41872260 is handled. Duration 453 ms by bot id=8669503162
+2026-03-25 15:28:27 | INFO    | aiogram.event | Update id=41872261 is handled. Duration 359 ms by bot id=8669503162
+2026-03-25 15:28:44 | INFO    | aiogram.event | Update id=41872262 is handled. Duration 1484 ms by bot id=8669503162
+2026-03-25 15:28:48 | INFO    | aiogram.event | Update id=41872263 is handled. Duration 422 ms by bot id=8669503162
+2026-03-25 15:28:56 | INFO    | aiogram.event | Update id=41872264 is handled. Duration 313 ms by bot id=8669503162
+2026-03-25 15:29:00 | INFO    | aiogram.event | Update id=41872265 is handled. Duration 311 ms by bot id=8669503162
+2026-03-25 15:30:21 | INFO    | aiogram.event | Update id=41872266 is handled. Duration 7452 ms by bot id=8669503162
+2026-03-25 15:31:23 | INFO    | aiogram.event | Update id=41872267 is handled. Duration 2015 ms by bot id=8669503162
+2026-03-25 15:31:32 | INFO    | handlers.commands | 📋 /help командасы: chat=7703184451
+2026-03-25 15:31:32 | INFO    | aiogram.event | Update id=41872268 is handled. Duration 686 ms by bot id=8669503162
+2026-03-25 15:31:35 | INFO    | aiogram.event | Update id=41872269 is handled. Duration 827 ms by bot id=8669503162
+2026-03-25 15:34:47 | INFO    | firebase_db | Firebase satti qosyldy
+2026-03-25 15:34:47 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-25 15:34:47 | INFO    | __main__ | ==================================================
+2026-03-25 15:34:47 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-25 15:34:47 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-25 15:34:47 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-25 15:34:47 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-25 15:34:47 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-25 15:34:47 | INFO    | __main__ | ==================================================
+2026-03-25 15:34:47 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-25 15:34:48 | INFO    | scheduler.daily_scheduler | 🚀 Scheduler іске қосылды
+2026-03-25 15:34:50 | INFO    | aiogram.dispatcher | Start polling
+2026-03-25 15:34:50 | INFO    | aiogram.dispatcher | Run polling for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 15:34:57 | INFO    | aiogram.event | Update id=41872270 is handled. Duration 2172 ms by bot id=8669503162
+2026-03-25 15:36:12 | INFO    | firebase_db | Firebase satti qosyldy
+2026-03-25 15:36:12 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-25 15:36:12 | INFO    | __main__ | ==================================================
+2026-03-25 15:36:12 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-25 15:36:12 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-25 15:36:12 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-25 15:36:12 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-25 15:36:12 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-25 15:36:12 | INFO    | __main__ | ==================================================
+2026-03-25 15:36:12 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-25 15:36:14 | INFO    | scheduler.daily_scheduler | 🚀 Scheduler іске қосылды
+2026-03-25 15:36:16 | INFO    | aiogram.dispatcher | Start polling
+2026-03-25 15:36:17 | INFO    | aiogram.dispatcher | Run polling for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 15:36:21 | INFO    | aiogram.event | Update id=41872271 is handled. Duration 3546 ms by bot id=8669503162
+2026-03-25 15:38:37 | INFO    | firebase_db | Firebase satti qosyldy
+2026-03-25 15:38:37 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-25 15:38:37 | INFO    | __main__ | ==================================================
+2026-03-25 15:38:37 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-25 15:38:37 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-25 15:38:37 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-25 15:38:37 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-25 15:38:37 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-25 15:38:37 | INFO    | __main__ | ==================================================
+2026-03-25 15:38:37 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-25 15:38:44 | INFO    | firebase_db | Firebase satti qosyldy
+2026-03-25 15:38:44 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-25 15:38:44 | INFO    | __main__ | ==================================================
+2026-03-25 15:38:44 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-25 15:38:44 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-25 15:38:44 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-25 15:38:44 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-25 15:38:44 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-25 15:38:44 | INFO    | __main__ | ==================================================
+2026-03-25 15:38:44 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-25 15:38:45 | INFO    | scheduler.daily_scheduler | 🚀 Scheduler іске қосылды
+2026-03-25 15:38:47 | INFO    | aiogram.dispatcher | Start polling
+2026-03-25 15:38:47 | INFO    | aiogram.dispatcher | Run polling for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 15:39:01 | INFO    | aiogram.event | Update id=41872272 is handled. Duration 1546 ms by bot id=8669503162
+2026-03-25 15:39:04 | INFO    | handlers.commands | 📋 /help командасы: chat=5503581456
+2026-03-25 15:39:05 | INFO    | aiogram.event | Update id=41872273 is handled. Duration 639 ms by bot id=8669503162
+2026-03-25 15:39:08 | INFO    | handlers.commands | 🏆 /top командасы: chat=5503581456
+2026-03-25 15:39:10 | INFO    | aiogram.event | Update id=41872274 is handled. Duration 1280 ms by bot id=8669503162
+2026-03-25 15:39:21 | INFO    | services.question_sender | Suraq zhiberildi: chat=-1001796617928, question=-OnxTcxGi2kGQ-XFHsCY
+2026-03-25 15:39:23 | INFO    | aiogram.event | Update id=41872276 is not handled. Duration 14 ms by bot id=8669503162
+2026-03-25 15:39:23 | INFO    | aiogram.event | Update id=41872277 is not handled. Duration 14 ms by bot id=8669503162
+2026-03-25 15:39:23 | INFO    | aiogram.event | Update id=41872278 is not handled. Duration 14 ms by bot id=8669503162
+2026-03-25 15:39:23 | INFO    | aiogram.event | Update id=41872279 is not handled. Duration 14 ms by bot id=8669503162
+2026-03-25 15:39:23 | INFO    | aiogram.event | Update id=41872280 is not handled. Duration 14 ms by bot id=8669503162
+2026-03-25 15:39:23 | INFO    | aiogram.event | Update id=41872281 is not handled. Duration 14 ms by bot id=8669503162
+2026-03-25 15:39:23 | INFO    | aiogram.event | Update id=41872275 is handled. Duration 3921 ms by bot id=8669503162
+2026-03-25 15:40:09 | INFO    | aiogram.event | Update id=41872282 is handled. Duration 7515 ms by bot id=8669503162
+2026-03-25 15:40:51 | INFO    | aiogram.event | Update id=41872283 is handled. Duration 1390 ms by bot id=8669503162
+2026-03-25 15:41:04 | INFO    | handlers.commands | 🏆 /top командасы: chat=-1001796617928
+2026-03-25 15:41:06 | INFO    | aiogram.event | Update id=41872284 is handled. Duration 1812 ms by bot id=8669503162
+2026-03-25 15:41:13 | INFO    | aiogram.event | Update id=41872285 is handled. Duration 516 ms by bot id=8669503162
+2026-03-25 15:41:16 | INFO    | aiogram.event | Update id=41872286 is handled. Duration 360 ms by bot id=8669503162
+2026-03-25 15:41:28 | INFO    | handlers.middleware | 🗑 Админ командасы өшірілді: /questioncount
+2026-03-25 15:41:28 | INFO    | aiogram.event | Update id=41872287 is handled. Duration 360 ms by bot id=8669503162
+2026-03-25 15:41:31 | INFO    | handlers.middleware | 🗑 Админ командасы өшірілді: /skip
+2026-03-25 15:41:31 | INFO    | aiogram.event | Update id=41872288 is handled. Duration 157 ms by bot id=8669503162
+2026-03-25 15:41:34 | INFO    | handlers.middleware | 🗑 Админ командасы өшірілді: /addquestion
+2026-03-25 15:41:34 | INFO    | aiogram.event | Update id=41872289 is handled. Duration 266 ms by bot id=8669503162
+2026-03-25 15:41:37 | INFO    | aiogram.event | Update id=41872290 is handled. Duration 187 ms by bot id=8669503162
+2026-03-25 15:41:39 | INFO    | handlers.commands | 🏆 /top командасы: chat=-1001796617928
+2026-03-25 15:41:41 | INFO    | aiogram.event | Update id=41872291 is handled. Duration 1155 ms by bot id=8669503162
+2026-03-25 15:41:45 | INFO    | handlers.commands | 📋 /help командасы: chat=-1001796617928
+2026-03-25 15:41:45 | INFO    | aiogram.event | Update id=41872292 is handled. Duration 264 ms by bot id=8669503162
+2026-03-25 15:41:52 | INFO    | aiogram.event | Update id=41872293 is handled. Duration 0 ms by bot id=8669503162
+2026-03-25 15:42:05 | INFO    | aiogram.event | Update id=41872294 is handled. Duration 2578 ms by bot id=8669503162
+2026-03-25 15:44:37 | INFO    | aiogram.event | Update id=41872295 is handled. Duration 1593 ms by bot id=8669503162
+2026-03-25 15:44:43 | INFO    | handlers.commands | 📋 /help командасы: chat=5503581456
+2026-03-25 15:44:44 | INFO    | aiogram.event | Update id=41872296 is handled. Duration 906 ms by bot id=8669503162
+2026-03-25 15:46:17 | INFO    | aiogram.dispatcher | Polling stopped for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 15:46:17 | INFO    | aiogram.dispatcher | Polling stopped
+2026-03-25 15:46:17 | INFO    | __main__ | 🛑 Бот тоқтатылды
+2026-03-25 15:46:17 | INFO    | __main__ | 👋 Бот тоқтатылды (Ctrl+C)
+2026-03-25 15:46:24 | INFO    | firebase_db | Firebase satti qosyldy
+2026-03-25 15:46:24 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-25 15:46:24 | INFO    | __main__ | ==================================================
+2026-03-25 15:46:24 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-25 15:46:24 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-25 15:46:24 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-25 15:46:24 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-25 15:46:24 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-25 15:46:24 | INFO    | __main__ | ==================================================
+2026-03-25 15:46:24 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-25 15:46:32 | INFO    | scheduler.daily_scheduler | 🚀 Scheduler іске қосылды
+2026-03-25 15:46:35 | INFO    | aiogram.dispatcher | Start polling
+2026-03-25 15:46:35 | INFO    | aiogram.dispatcher | Run polling for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 15:46:50 | INFO    | aiogram.event | Update id=41872297 is handled. Duration 2920 ms by bot id=8669503162
+2026-03-25 15:47:06 | INFO    | services.question_sender | Suraq zhiberildi: chat=-1001796617928, question=-OnxTd2V_R6C3M_I4vcN
+2026-03-25 15:47:07 | INFO    | aiogram.event | Update id=41872298 is handled. Duration 4264 ms by bot id=8669503162
+2026-03-25 15:47:21 | INFO    | aiogram.event | Update id=41872299 is handled. Duration 5030 ms by bot id=8669503162
+2026-03-25 15:47:38 | INFO    | aiogram.event | Update id=41872300 is handled. Duration 1860 ms by bot id=8669503162
+2026-03-25 15:47:57 | INFO    | services.question_sender | Suraq zhiberildi: chat=-1001796617928, question=-OnxTd74kFGNW1_vG9SX
+2026-03-25 15:47:57 | INFO    | aiogram.event | Update id=41872301 is handled. Duration 2546 ms by bot id=8669503162
+2026-03-25 15:48:07 | INFO    | aiogram.event | Update id=41872302 is handled. Duration 3186 ms by bot id=8669503162
+2026-03-25 15:48:19 | INFO    | services.question_sender | Suraq zhiberildi: chat=-1001796617928, question=-OnxTdCY_GSal51tf1SG
+2026-03-25 15:48:20 | INFO    | aiogram.event | Update id=41872303 is handled. Duration 2328 ms by bot id=8669503162
+2026-03-25 15:48:25 | INFO    | aiogram.event | Update id=41872304 is handled. Duration 2639 ms by bot id=8669503162
+2026-03-25 15:49:04 | INFO    | aiogram.event | Update id=41872305 is not handled. Duration 0 ms by bot id=8669503162
+2026-03-25 15:50:04 | INFO    | aiogram.event | Update id=41872306 is handled. Duration 1094 ms by bot id=8669503162
+2026-03-25 15:50:12 | INFO    | aiogram.event | Update id=41872307 is handled. Duration 796 ms by bot id=8669503162
+2026-03-25 15:50:24 | INFO    | aiogram.event | Update id=41872308 is handled. Duration 719 ms by bot id=8669503162
+2026-03-25 15:50:32 | INFO    | services.question_sender | Suraq zhiberildi: chat=-1001796617928, question=-OnxTdHO-gj24LAsY8z-
+2026-03-25 15:50:33 | INFO    | aiogram.event | Update id=41872309 is handled. Duration 2250 ms by bot id=8669503162
+2026-03-25 15:50:35 | INFO    | aiogram.event | Update id=41872310 is handled. Duration 702 ms by bot id=8669503162
+2026-03-25 15:50:59 | INFO    | aiogram.event | Update id=41872311 is handled. Duration 3077 ms by bot id=8669503162
+2026-03-25 15:52:51 | INFO    | aiogram.dispatcher | Polling stopped for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 15:52:51 | INFO    | aiogram.dispatcher | Polling stopped
+2026-03-25 15:52:51 | INFO    | __main__ | 🛑 Бот тоқтатылды
+2026-03-25 15:52:51 | INFO    | __main__ | 👋 Бот тоқтатылды (Ctrl+C)
+2026-03-25 15:52:57 | INFO    | firebase_db | Firebase satti qosyldy
+2026-03-25 15:52:57 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-25 15:52:57 | INFO    | __main__ | ==================================================
+2026-03-25 15:52:57 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-25 15:52:57 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-25 15:52:57 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-25 15:52:57 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-25 15:52:57 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-25 15:52:57 | INFO    | __main__ | ==================================================
+2026-03-25 15:52:57 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-25 15:52:59 | INFO    | scheduler.daily_scheduler | 🚀 Scheduler іске қосылды
+2026-03-25 15:53:00 | INFO    | aiogram.dispatcher | Start polling
+2026-03-25 15:53:01 | INFO    | aiogram.dispatcher | Run polling for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 15:53:07 | INFO    | services.question_sender | Suraq zhiberildi: chat=-1001796617928, question=-OnxTdMK0BosEdwudq3S
+2026-03-25 15:53:08 | INFO    | aiogram.event | Update id=41872312 is handled. Duration 2562 ms by bot id=8669503162
+2026-03-25 15:53:22 | INFO    | aiogram.event | Update id=41872313 is handled. Duration 5420 ms by bot id=8669503162
+2026-03-25 15:54:21 | INFO    | aiogram.event | Update id=41872314 is handled. Duration 5562 ms by bot id=8669503162
+2026-03-25 15:54:31 | INFO    | aiogram.event | Update id=41872315 is handled. Duration 735 ms by bot id=8669503162
+2026-03-25 15:54:37 | INFO    | aiogram.event | Update id=41872316 is handled. Duration 704 ms by bot id=8669503162
+2026-03-25 15:56:51 | INFO    | aiogram.event | Update id=41872317 is handled. Duration 1296 ms by bot id=8669503162
+2026-03-25 15:57:44 | INFO    | aiogram.event | Update id=41872318 is handled. Duration 1280 ms by bot id=8669503162
+2026-03-25 15:59:27 | INFO    | aiogram.dispatcher | Polling stopped
+2026-03-25 15:59:27 | INFO    | aiogram.dispatcher | Polling stopped for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 15:59:27 | INFO    | __main__ | 🛑 Бот тоқтатылды
+2026-03-25 15:59:27 | INFO    | __main__ | 👋 Бот тоқтатылды (Ctrl+C)
+2026-03-25 15:59:33 | INFO    | firebase_db | Firebase satti qosyldy
+2026-03-25 15:59:33 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-25 15:59:33 | INFO    | __main__ | ==================================================
+2026-03-25 15:59:33 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-25 15:59:33 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-25 15:59:33 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-25 15:59:33 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-25 15:59:33 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-25 15:59:33 | INFO    | __main__ | ==================================================
+2026-03-25 15:59:33 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-25 15:59:34 | INFO    | scheduler.daily_scheduler | 🚀 Scheduler іске қосылды
+2026-03-25 15:59:35 | INFO    | aiogram.dispatcher | Start polling
+2026-03-25 15:59:35 | INFO    | aiogram.dispatcher | Run polling for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 15:59:39 | INFO    | aiogram.event | Update id=41872319 is handled. Duration 2593 ms by bot id=8669503162
+2026-03-25 16:00:25 | INFO    | aiogram.event | Update id=41872320 is handled. Duration 5562 ms by bot id=8669503162
+2026-03-25 16:00:35 | INFO    | aiogram.event | Update id=41872321 is handled. Duration 2500 ms by bot id=8669503162
+2026-03-25 16:00:48 | INFO    | aiogram.event | Update id=41872322 is handled. Duration 797 ms by bot id=8669503162
+2026-03-25 16:00:52 | INFO    | aiogram.event | Update id=41872323 is handled. Duration 734 ms by bot id=8669503162
+2026-03-25 16:00:56 | INFO    | aiogram.event | Update id=41872324 is handled. Duration 156 ms by bot id=8669503162
+2026-03-25 16:01:37 | INFO    | aiogram.event | Update id=41872325 is handled. Duration 500 ms by bot id=8669503162
+2026-03-25 16:01:40 | INFO    | aiogram.event | Update id=41872326 is handled. Duration 0 ms by bot id=8669503162
+2026-03-25 16:01:45 | INFO    | aiogram.event | Update id=41872327 is handled. Duration 202 ms by bot id=8669503162
+2026-03-25 16:01:46 | INFO    | aiogram.event | Update id=41872328 is handled. Duration 0 ms by bot id=8669503162
+2026-03-25 16:01:49 | INFO    | aiogram.event | Update id=41872329 is handled. Duration 218 ms by bot id=8669503162
+2026-03-25 16:01:51 | INFO    | aiogram.event | Update id=41872330 is handled. Duration 171 ms by bot id=8669503162
+2026-03-25 16:01:52 | INFO    | aiogram.event | Update id=41872331 is handled. Duration 234 ms by bot id=8669503162
+2026-03-25 16:01:54 | INFO    | aiogram.event | Update id=41872332 is handled. Duration 155 ms by bot id=8669503162
+2026-03-25 16:01:55 | INFO    | aiogram.event | Update id=41872333 is handled. Duration 202 ms by bot id=8669503162
+2026-03-25 16:02:22 | INFO    | aiogram.event | Update id=41872334 is handled. Duration 5811 ms by bot id=8669503162
+2026-03-25 16:03:17 | INFO    | aiogram.event | Update id=41872335 is handled. Duration 1016 ms by bot id=8669503162
+2026-03-25 16:03:33 | INFO    | aiogram.event | Update id=41872336 is handled. Duration 514 ms by bot id=8669503162
+2026-03-25 16:04:04 | INFO    | aiogram.event | Update id=41872337 is handled. Duration 4046 ms by bot id=8669503162
+2026-03-25 16:04:11 | INFO    | aiogram.event | Update id=41872338 is handled. Duration 4110 ms by bot id=8669503162
+2026-03-25 16:04:21 | INFO    | aiogram.event | Update id=41872339 is handled. Duration 3125 ms by bot id=8669503162
+2026-03-25 16:04:49 | INFO    | aiogram.event | Update id=41872340 is not handled. Duration 20578 ms by bot id=8669503162
+2026-03-25 16:04:49 | ERROR   | aiogram.event | Cause exception while process update id=41872340 by bot id=8669503162
+TelegramBadRequest: Telegram server says - Bad Request: query is too old and response timeout expired or query ID is invalid
+Traceback (most recent call last):
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\bakyt\Desktop\TODAY NEED\it-quiz-bot\handlers\quiz.py", line 110, in process_answer_callback
+    await callback.answer(popup_text, show_alert=True)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+  File "C:\Users\bakyt\AppData\Roaming\Python\Python310\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: query is too old and response timeout expired or query ID is invalid
+2026-03-25 16:04:52 | INFO    | aiogram.event | Update id=41872341 is handled. Duration 3139 ms by bot id=8669503162
+2026-03-25 16:05:15 | INFO    | aiogram.event | Update id=41872342 is handled. Duration 1670 ms by bot id=8669503162
+2026-03-25 16:05:23 | INFO    | aiogram.event | Update id=41872343 is handled. Duration 4921 ms by bot id=8669503162
+2026-03-25 16:05:44 | INFO    | aiogram.event | Update id=41872344 is not handled. Duration 15 ms by bot id=8669503162
+2026-03-25 16:05:48 | INFO    | aiogram.event | Update id=41872345 is handled. Duration 563 ms by bot id=8669503162
+2026-03-25 16:05:58 | INFO    | aiogram.event | Update id=41872346 is handled. Duration 233 ms by bot id=8669503162
+2026-03-25 16:06:08 | INFO    | aiogram.event | Update id=41872347 is handled. Duration 1953 ms by bot id=8669503162
+2026-03-25 16:08:03 | INFO    | aiogram.event | Update id=41872348 is handled. Duration 2577 ms by bot id=8669503162
+2026-03-25 16:08:10 | INFO    | aiogram.event | Update id=41872349 is handled. Duration 734 ms by bot id=8669503162
+2026-03-25 16:08:19 | INFO    | aiogram.event | Update id=41872350 is handled. Duration 2687 ms by bot id=8669503162
+2026-03-25 16:10:07 | WARNING | urllib3.connectionpool | Retrying (Retry(total=9, connect=1, read=0, redirect=None, status=4)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /daily/2026-03-25.json
+2026-03-25 16:10:38 | ERROR   | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-03-25 16:10:38 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8669503162)
+2026-03-25 16:10:50 | INFO    | aiogram.dispatcher | Connection established (tryings = 1, bot id = 8669503162)
+2026-03-25 16:10:54 | INFO    | aiogram.event | Update id=41872351 is handled. Duration 2890 ms by bot id=8669503162
+2026-03-25 16:44:33 | INFO    | aiogram.dispatcher | Polling stopped
+2026-03-25 16:44:33 | INFO    | aiogram.dispatcher | Polling stopped for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 16:44:34 | INFO    | __main__ | 🛑 Бот тоқтатылды
+2026-03-25 16:44:34 | INFO    | __main__ | 👋 Бот тоқтатылды (Ctrl+C)
+2026-03-25 16:44:40 | INFO    | firebase_db | Firebase satti qosyldy
+2026-03-25 16:44:40 | INFO    | __main__ | 🚀 Polling іске қосылуда...
+2026-03-25 16:44:40 | INFO    | __main__ | ==================================================
+2026-03-25 16:44:40 | INFO    | __main__ | 🤖 IT Quiz Bot іске қосылуда...
+2026-03-25 16:44:40 | INFO    | __main__ |    Админдер: [5503581456]
+2026-03-25 16:44:40 | INFO    | __main__ |    Чаттар: [-1001796617928]
+2026-03-25 16:44:40 | INFO    | __main__ |    Уақыт белдеуі: Asia/Almaty
+2026-03-25 16:44:40 | INFO    | __main__ |    Сұрақ уақыттары: [9, 12, 15, 18, 21]
+2026-03-25 16:44:40 | INFO    | __main__ | ==================================================
+2026-03-25 16:44:40 | INFO    | scheduler.daily_scheduler | ✅ Scheduler background task іске қосылды
+2026-03-25 16:44:42 | INFO    | scheduler.daily_scheduler | 🚀 Scheduler іске қосылды
+2026-03-25 16:44:43 | INFO    | aiogram.dispatcher | Start polling
+2026-03-25 16:44:43 | INFO    | aiogram.dispatcher | Run polling for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 16:45:00 | INFO    | aiogram.event | Update id=41872352 is handled. Duration 1327 ms by bot id=8669503162
+2026-03-25 16:45:02 | INFO    | aiogram.event | Update id=41872353 is handled. Duration 297 ms by bot id=8669503162
+2026-03-25 16:45:12 | INFO    | aiogram.event | Update id=41872354 is handled. Duration 2891 ms by bot id=8669503162
+2026-03-25 16:45:17 | INFO    | aiogram.event | Update id=41872355 is handled. Duration 3405 ms by bot id=8669503162
+2026-03-25 16:45:37 | INFO    | aiogram.event | Update id=41872356 is handled. Duration 7796 ms by bot id=8669503162
+2026-03-25 16:45:55 | INFO    | aiogram.event | Update id=41872357 is handled. Duration 7110 ms by bot id=8669503162
+2026-03-25 16:46:10 | INFO    | aiogram.event | Update id=41872358 is handled. Duration 1125 ms by bot id=8669503162
+2026-03-25 16:46:17 | INFO    | aiogram.event | Update id=41872359 is handled. Duration 1061 ms by bot id=8669503162
+2026-03-25 16:46:21 | INFO    | aiogram.event | Update id=41872360 is handled. Duration 530 ms by bot id=8669503162
+2026-03-25 16:46:38 | INFO    | aiogram.event | Update id=41872361 is handled. Duration 936 ms by bot id=8669503162
+2026-03-25 16:46:55 | INFO    | aiogram.event | Update id=41872362 is handled. Duration 3563 ms by bot id=8669503162
+2026-03-25 16:47:28 | INFO    | aiogram.event | Update id=41872363 is handled. Duration 0 ms by bot id=8669503162
+2026-03-25 16:47:38 | INFO    | aiogram.event | Update id=41872364 is handled. Duration 922 ms by bot id=8669503162
+2026-03-25 16:47:44 | INFO    | aiogram.event | Update id=41872365 is handled. Duration 202 ms by bot id=8669503162
+2026-03-25 16:47:46 | INFO    | aiogram.event | Update id=41872366 is handled. Duration 405 ms by bot id=8669503162
+2026-03-25 16:47:47 | INFO    | aiogram.event | Update id=41872367 is handled. Duration 202 ms by bot id=8669503162
+2026-03-25 16:47:48 | INFO    | aiogram.event | Update id=41872368 is handled. Duration 312 ms by bot id=8669503162
+2026-03-25 16:47:50 | INFO    | aiogram.event | Update id=41872369 is handled. Duration 202 ms by bot id=8669503162
+2026-03-25 16:47:52 | INFO    | aiogram.event | Update id=41872370 is handled. Duration 233 ms by bot id=8669503162
+2026-03-25 16:47:53 | INFO    | aiogram.event | Update id=41872371 is handled. Duration 15 ms by bot id=8669503162
+2026-03-25 16:48:03 | INFO    | aiogram.event | Update id=41872372 is handled. Duration 5468 ms by bot id=8669503162
+2026-03-25 16:48:04 | INFO    | aiogram.event | Update id=41872373 is handled. Duration 3780 ms by bot id=8669503162
+2026-03-25 16:48:27 | INFO    | aiogram.event | Update id=41872374 is handled. Duration 1375 ms by bot id=8669503162
+2026-03-25 16:48:33 | INFO    | aiogram.event | Update id=41872375 is handled. Duration 2375 ms by bot id=8669503162
+2026-03-25 16:48:36 | INFO    | aiogram.event | Update id=41872376 is handled. Duration 203 ms by bot id=8669503162
+2026-03-25 16:48:38 | INFO    | aiogram.event | Update id=41872377 is handled. Duration 375 ms by bot id=8669503162
+2026-03-25 16:48:40 | INFO    | aiogram.event | Update id=41872378 is handled. Duration 344 ms by bot id=8669503162
+2026-03-25 16:48:43 | INFO    | aiogram.event | Update id=41872379 is handled. Duration 313 ms by bot id=8669503162
+2026-03-25 16:48:44 | INFO    | aiogram.event | Update id=41872380 is handled. Duration 264 ms by bot id=8669503162
+2026-03-25 16:48:46 | INFO    | aiogram.event | Update id=41872381 is handled. Duration 202 ms by bot id=8669503162
+2026-03-25 16:48:47 | INFO    | aiogram.event | Update id=41872382 is handled. Duration 203 ms by bot id=8669503162
+2026-03-25 16:48:48 | INFO    | aiogram.event | Update id=41872383 is handled. Duration 250 ms by bot id=8669503162
+2026-03-25 16:48:58 | INFO    | aiogram.event | Update id=41872384 is handled. Duration 859 ms by bot id=8669503162
+2026-03-25 16:49:05 | INFO    | aiogram.event | Update id=41872385 is handled. Duration 1032 ms by bot id=8669503162
+2026-03-25 16:59:50 | INFO    | scheduler.daily_scheduler | 🎲 Бүгінгі сұрақ уақыты: 21:00
+2026-03-25 17:04:03 | INFO    | aiogram.dispatcher | Polling stopped
+2026-03-25 17:04:03 | INFO    | aiogram.dispatcher | Polling stopped for bot @it_quiz_kz_bot id=8669503162 - 'IT Quiz Bot'
+2026-03-25 17:04:03 | INFO    | __main__ | 🛑 Бот тоқтатылды
+2026-03-25 17:04:03 | INFO    | __main__ | 👋 Бот тоқтатылды (Ctrl+C)
