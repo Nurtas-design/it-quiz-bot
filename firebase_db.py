@@ -1,7 +1,7 @@
 """
 firebase_db.py — Firebase Realtime Database moduli
 """
-
+import json
 import firebase_admin
 from firebase_admin import credentials, db
 from datetime import datetime, date
@@ -20,7 +20,8 @@ def init_firebase():
     if _initialized:
         return
 
-    cred = credentials.Certificate(config.FIREBASE_CREDENTIALS_PATH)
+    cred_dict = json.loads(config.FIREBASE_CREDENTIALS_JSON)
+    cred = credentials.Certificate(cred_dict)
     firebase_admin.initialize_app(cred, {
         "databaseURL": config.FIREBASE_DATABASE_URL
     })
