@@ -30,7 +30,7 @@ BOT_TOKEN: str = _get_required("BOT_TOKEN")
 
 # ===== Firebase =====
 FIREBASE_DATABASE_URL: str = _get_required("FIREBASE_DATABASE_URL")
-FIREBASE_CREDENTIALS_PATH: str = _get_required("FIREBASE_CREDENTIALS_PATH")
+FIREBASE_CREDENTIALS_JSON: str = _get_required("FIREBASE_CREDENTIALS_JSON")
 
 # ===== Админдер тізімі =====
 ADMIN_IDS: list[int] = _parse_int_list(_get_required("ADMIN_IDS"))
