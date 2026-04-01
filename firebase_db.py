@@ -21,6 +21,8 @@ def init_firebase():
         return
 
     cred_dict = json.loads(config.FIREBASE_CREDENTIALS_JSON)
+    # \n символдарын түзету
+    cred_dict["private_key"] = cred_dict["private_key"].replace("\\n", "\n")
     cred = credentials.Certificate(cred_dict)
     firebase_admin.initialize_app(cred, {
         "databaseURL": config.FIREBASE_DATABASE_URL
