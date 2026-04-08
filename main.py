@@ -1,107 +1,71 @@
-"""
-main.py — IT Quiz Bot негізгі файлы
-Telegram бот іске қосу, роутерлерді тіркеу, scheduler іске қосу.
-
-Іске қосу:
-  python main.py
-"""
-
-import asyncio
+import os
 import logging
+from fastapi import FastAPI, Request, Response, BackgroundTasks
+from aiogram import Bot, Dispatcher, types
+import asyncio
+import uvicorn
 import sys
 
-from aiogram import Bot, Dispatcher
-from aiogram.enums import ParseMode
-from aiogram.fsm.storage.memory import MemoryStorage
-from aiogram.client.default import DefaultBotProperties
-
-# Модульдер
-import config
-import firebase_db as fdb
+# Папкалардан импорт ету
+from config import BOT_TOKEN, ALLOWED_CHAT_IDS
+import services.firebase_db as fdb
+from handlers.commands import router as commands_router
+from handlers.admin import router as admin_router
+from handlers.quiz import router as quiz_router
 from handlers.middleware import ChatFilterMiddleware
-from handlers import commands, admin, quiz
-from scheduler.daily_scheduler import start_scheduler
+from services.question_sender import send_daily_question
+from scheduler.daily_scheduler import check_and_send
 
-# ===== Логирование =====
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s | %(levelname)-7s | %(name)s | %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-    handlers=[
-        logging.StreamHandler(sys.stdout),
-        logging.FileHandler("bot.log", encoding="utf-8"),
-    ]
-)
+# Logger орнату
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Firebase инициализациясы
+fdb.init_firebase()
 
-async def on_startup(bot: Bot):
-    """Бот іске қосылғанда."""
-    logger.info("=" * 50)
-    logger.info("🤖 IT Quiz Bot іске қосылуда...")
-    logger.info(f"   Админдер: {config.ADMIN_IDS}")
-    logger.info(f"   Чаттар: {config.ALLOWED_CHAT_IDS}")
-    logger.info(f"   Уақыт белдеуі: {config.TIMEZONE}")
-    logger.info(f"   Сұрақ уақыттары: {config.QUESTION_HOURS}")
-    logger.info("=" * 50)
+# Telegram Bot инициализациясы
+bot = Bot(token=BOT_TOKEN, parse_mode="HTML")
+dp = Dispatcher()
 
-    # Scheduler іске қосу
-    await start_scheduler(bot)
+# Middleware және Router-лерді қосу
+dp.message.middleware(ChatFilterMiddleware())
+dp.include_router(commands_router)
+dp.include_router(admin_router)
+dp.include_router(quiz_router)
 
-    # Админдерге хабар жіберу
-    unused = fdb.get_unused_count()
-    for admin_id in config.ADMIN_IDS:
-        try:
-            await bot.send_message(
-                admin_id,
-                f"🤖 <b>IT Quiz Bot іске қосылды!</b>\n\n"
-                f"📊 Пайдаланылмаған сұрақтар: <b>{unused}</b>\n"
-                f"⏰ Сұрақ уақыттары: {config.QUESTION_HOURS}",
-                parse_mode="HTML"
-            )
-        except Exception as e:
-            logger.warning(f"Админге хабар жіберу қатесі ({admin_id}): {e}")
+# FastAPI қолданбасы
+app = FastAPI(title="IT Quiz Bot", version="1.0.0")
 
-
-async def main():
-    """Негізгі функция."""
-
-    # Firebase инициализация
-    fdb.init_firebase()
-
-    # Bot & Dispatcher
-    bot = Bot(
-        token=config.BOT_TOKEN,
-        default=DefaultBotProperties(parse_mode=ParseMode.HTML)
-    )
-
-    dp = Dispatcher(storage=MemoryStorage())
-
-    # Middleware тіркеу
-    dp.message.middleware(ChatFilterMiddleware())
-
-    # Роутерлерді тіркеу
-    dp.include_router(admin.router)     # Админ командалары — бірінші
-    dp.include_router(commands.router)  # Қолданушы командалары
-    dp.include_router(quiz.router)      # Сұрақ жауаптары
-
-    # Startup callback
-    dp.startup.register(on_startup)
-
-    # Polling іске қосу
-    logger.info("🚀 Polling іске қосылуда...")
+@app.post("/webhook")
+async def telegram_webhook(request: Request):
+    """Telegram Webhook арқылы хабарламаларды қабылдау."""
     try:
-        await dp.start_polling(bot, allowed_updates=["message", "callback_query"])
-    finally:
-        await bot.session.close()
-        logger.info("🛑 Бот тоқтатылды")
+        json_data = await request.json()
+        update = types.Update(**json_data)
+        await dp.feed_update(bot, update)
+        return {"status": "ok"}
+    except Exception as e:
+        logger.error(f"Webhook error: {e}")
+        return {"status": "error", "message": str(e)}
 
+@app.get("/health")
+async def health_check():
+    """Сервердің жұмыс істеп тұрғанын тексеру."""
+    return {"status": "ok", "service": "telegram-bot"}
+
+@app.post("/scheduler")
+async def trigger_scheduler(background_tasks: BackgroundTasks):
+    """Choreo Scheduled Task арқылы сұрақтарды жіберу."""
+    background_tasks.add_task(run_scheduler_task)
+    return {"status": "scheduler triggered"}
+
+async def run_scheduler_task():
+    try:
+        await check_and_send(bot)
+        logger.info("Scheduler task completed.")
+    except Exception as e:
+        logger.error(f"Scheduler task error: {e}")
 
 if __name__ == "__main__":
-    try:
-        asyncio.run(main())
-    except KeyboardInterrupt:
-        logger.info("👋 Бот тоқтатылды (Ctrl+C)")
-    except Exception as e:
-        logger.critical(f"💥 Критикалық қате: {e}", exc_info=True)
-        sys.exit(1)
+    port = int(os.environ.get("PORT", 8080))
+    uvicorn.run(app, host="0.0.0.0", port=port)
